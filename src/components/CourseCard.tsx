@@ -52,7 +52,7 @@ export default function CourseCard({ title, instructor, image, duration, level, 
             {students}
           </span>
           <span className="flex items-center gap-1">
-            <Star className="h-3.5 w-3.5 text-amber-500 fill-amber-500" />
+            <Star className="h-3.5 w-3.5 text-rating fill-rating" />
             {rating}
           </span>
         </div>

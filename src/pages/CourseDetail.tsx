@@ -58,7 +58,7 @@ export default function CourseDetail() {
                 <span className="flex items-center gap-1"><Clock className="h-4 w-4" /> {course.duration}</span>
                 <span className="flex items-center gap-1"><BookOpen className="h-4 w-4" /> {totalLessons} lessons</span>
                 <span className="flex items-center gap-1"><Users className="h-4 w-4" /> {course.students} students</span>
-                <span className="flex items-center gap-1"><Star className="h-4 w-4 text-amber-500 fill-amber-500" /> {course.rating}</span>
+                <span className="flex items-center gap-1"><Star className="h-4 w-4 text-rating fill-rating" /> {course.rating}</span>
               </div>
               <div className="flex items-center gap-3 pt-2">
                 <img src={course.instructorImage} alt={course.instructor} className="h-10 w-10 rounded-md object-cover" />

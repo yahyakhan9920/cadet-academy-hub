@@ -197,7 +197,7 @@ export default function Index() {
               <div key={t.name} className="bg-surface rounded-[12px] shadow-card p-8 space-y-4">
                 <div className="flex gap-0.5">
                   {Array.from({ length: t.rating }).map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-amber-500 fill-amber-500" />
+                    <Star key={i} className="h-4 w-4 text-rating fill-rating" />
                   ))}
                 </div>
                 <p className="text-sm text-muted-foreground leading-relaxed italic">"{t.text}"</p>
